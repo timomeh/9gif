@@ -1,0 +1,30 @@
+{
+  "name": "9gif",
+  "version": "1.0.0",
+  "description": "Download gifs from 9gag",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/timomeh/9gif.git"
+  },
+  "bin": {
+    "9gif": "./cli.js"
+  },
+  "keywords": [
+    "9gag",
+    "gif",
+    "download"
+  ],
+  "author": "Timo Mämecke",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/timomeh/9gif/issues"
+  },
+  "homepage": "https://github.com/timomeh/9gif#readme",
+  "dependencies": {
+    "htmlparser2": "^3.9.1",
+    "request": "^2.75.0"
+  }
+}
