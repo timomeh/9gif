@@ -42,6 +42,7 @@ args.check() /* Check arguments for validity and sanitize them */
 
   spinner.stop(true)
   console.log(chalk.green(`✓ Saved GIF to ${args.dest}`))
+  console.log(chalk.dim(`Powered By Giphy.`))
 })
 .catch(e => {
   /* Complete error handling */

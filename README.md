@@ -13,8 +13,10 @@ $ 9gif http://9gag.com/gag/amz4Y9X ~/gifs
 
 ## Install
 
-Not yet published to npm
+```sh
+$ npm install 9gif --global
+```
 
-## Notice
+## TODO
 
-I hacked this while I was so tired. I started with a nice structure and got angry and basically fucked a few things up. Will need to refactor this. 💩
+- Make pluggable version, not only cli
