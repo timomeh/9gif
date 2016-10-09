@@ -13,8 +13,9 @@ const args = new Args(process.argv)
 const spinner = new Spinner()
 spinner.setSpinnerString(18)
 
+/* Start process */
 
-args.check() /* Check arguments for validity and sanitize them*/
+args.check() /* Check arguments for validity and sanitize them */
 .then(() => {
   /* Parse the 9GAG page for a mp4 link */
 
