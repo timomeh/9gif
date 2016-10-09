@@ -2,6 +2,8 @@
 
 > Download gifs from 9gag. Powered By Giphy.
 
+[![Build Status](https://travis-ci.org/timomeh/9gif.svg?branch=master)](https://travis-ci.org/timomeh/9gif)
+
 ## Usage
 
 ```sh

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Download gifs from 9gag",
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "build-exec": "nexe -i cli.js -o 9gif"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "request": "^2.75.0"
   },
   "devDependencies": {
+    "nexe": "^1.1.2",
     "standard": "^8.3.0"
   }
 }
